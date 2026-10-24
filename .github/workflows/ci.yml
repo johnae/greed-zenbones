@@ -1,4 +1,4 @@
-# The plugin's tests, run by the latest Greed from its flake.
+# The plugin's types and tests, checked by the latest Greed from its flake.
 name: ci
 
 on:
@@ -14,4 +14,4 @@ jobs:
       - uses: cachix/cachix-action@v17
         with:
           name: greed
-      - run: nix run github:johnae/greed -- test .
+      - run: nix run github:johnae/greed -- check .

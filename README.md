@@ -55,8 +55,8 @@ The terminal keeps comments italic, as always.
 
 ## Working on it
 
-`greed test .` runs the tests. Colors are worked out in HSLuv, as zenbones
-does (`hsluv.luau`); `recipe.luau` turns a variant's few colors into a
-theme, and `variants.luau` has each variant.
+`greed check .` checks the types and runs the tests. Colors are worked
+out in HSLuv, as zenbones does (`hsluv.luau`); `recipe.luau` turns a
+variant's few colors into a theme, and `variants.luau` has each variant.
 
 MIT, like zenbones. Thanks to Michael Chris Lopez for zenbones itself.
