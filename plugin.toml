@@ -1,3 +1,5 @@
 name = "zenbones"
 requires = ["theme"]
 capabilities = []
+# Fonts by name and themes that wait for their plugin came in 0.4.
+greed = "0.4"
